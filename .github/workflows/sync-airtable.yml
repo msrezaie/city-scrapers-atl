@@ -12,6 +12,6 @@ jobs:
     secrets:
       AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
       AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
-      AIRTABLE_TABLE: ${{ secrets.AIRTABLE_TABLE }}
-      AIRTABLE_BACKLOG_TABLE: ${{ secrets.AIRTABLE_BACKLOG_TABLE }}
+      AIRTABLE_TABLE: ${{ secrets.SLUGS_TABLE_ID }}
+      AIRTABLE_BACKLOG_TABLE: ${{ secrets.BACKLOG_TABLE_ID }}
  
